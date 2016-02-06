@@ -1,0 +1,8 @@
+---
+- name: Configure a Raspberry Pi as a NAS using Borg backup
+  hosts: pis
+  user: pi
+  become: yes
+
+  roles: 
+     - setup
